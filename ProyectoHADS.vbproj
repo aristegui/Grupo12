@@ -96,6 +96,9 @@
     <Content Include="App_Data\HAS.xml" />
     <Content Include="App_Data\SEG.xml" />
     <Content Include="App_Data\XSLTFile.xsl" />
+    <Content Include="App_Data\XSLTFILECodigo.xsl" />
+    <Content Include="App_Data\XSLTFILEDescripcion.xsl" />
+    <Content Include="App_Data\XSLTFILEHEstimadas.xsl" />
     <Content Include="cambiarpassword.aspx" />
     <Content Include="confirmar.aspx" />
     <Content Include="confirmarPassword.aspx" />
@@ -283,10 +286,7 @@
     </None>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Folder Include="Profesor\" />
-    <Folder Include="Alumno\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
